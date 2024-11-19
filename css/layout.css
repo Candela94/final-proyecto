@@ -1,0 +1,32 @@
+
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: poppins;
+}
+
+
+.Body{
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.Header{
+
+    display: flex;
+    justify-content: space-between;
+
+    padding: 32px;
+}
+
+.Header-ul {
+    display: flex;
+    gap: 32px;
+
+    list-style: none;
+}
+

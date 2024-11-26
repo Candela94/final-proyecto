@@ -1,4 +1,19 @@
 
+/* ------------------------- */
+/*    Fuentes                */
+/* ------------------------- */
+
+
+@font-face {
+    font-family: "Cartoon";
+    src: url(../fonts/CartoonCheck-Black\ 2.ttf);
+}
+
+@font-face {
+    font-family: "Spice";
+    src: url(../fonts/Spice-Regular.ttf);
+}
+
 
 
 *{
@@ -7,7 +22,125 @@
     margin: 0px;
 }
 
+
+/* ----------------------------------*/
+/*              Header               */
+/* ----------------------------------*/
+
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 32px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+    /* box-shadow: 0.3px 0.5px 10px black; */
+}
+
+
+.Header-nav ul{
+
+    display: flex;
+    list-style: none;
+    gap: 64px;
+}
+
+
+.Header-icons ul {
+    display: flex;
+    gap: 32px;
+    
+}
+
+.Header-icons li{
+    list-style: none;
+    
+}
+
+
+.Header-icons i{
+    font-size: 18px;
+}
+
+
+#linkedin{
+
+    transition: color 0.4s ease, transform 0.4s ease;
+
+}
+
+#linkedin:hover {
+    color: #0966C2;
+    transform: scale(1.1);
+}
+
+#behance{
+    transition: color 0.4s ease, transform 0.4s ease;
+}
+
+#behance:hover {
+
+    color: #002ACC;
+    transform: scale(1.1);
+
+}
+
+
+
+
 .Body {
     font-family: poppins;
-    color: #2E2E2E;
+   
+}
+
+
+
+/* ----------------------------------*/
+/*       Botones-color               */
+/* ----------------------------------*/
+
+
+.Main-themes {
+    display: flex;
+    justify-content: end;
+    gap: 24px;
+    padding: 32px;
+}
+
+.Main-colorButton {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border: none;border-radius: 10px;
+    transition: rotate 0.3s ease, transform 0.3s ease ;
+
+}
+
+.Main-colorButton:hover {
+    rotate: 180deg;
+    transform: scale(1.2);
+}
+
+/* ----------------------------------*/
+/*              Botones              */
+/* ----------------------------------*/
+
+
+#light-mode {
+    background-color: #F6F6F0;
+}
+
+#dark-mode {
+    background-color: #2E2E2E;
+}
+
+#purple-mode {
+    background-color: #352D31;
+}
+
+#green-mode {
+    background-color: #97A75B;
 }

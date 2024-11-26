@@ -1,0 +1,47 @@
+
+/* ------------------------- */
+/*    Variables              */
+/* ------------------------- */
+
+:root {
+
+
+    --bg-primary: #F6F6F0;
+    --bg-secondary: #2E2E2E;
+    --title: #2E2E2E;
+    --txt-primary: #2E2E2E;
+    --txt-secondary: #545252;
+
+}
+
+
+/* ------------------------- */
+/*    Clases reutilizables   */
+/* ------------------------- */
+
+
+.u-bgPrimary {
+    background-color: var(--bg-primary);
+
+}
+
+.u-bgSecondary {
+    background-color: var(--bg-secondary);
+
+}
+
+
+.-u-Ttitle {
+    color: var(--title);
+
+}
+
+.-u-txtPrimary {
+    color: var(--txt-primary);
+
+}
+
+.-u-txtSecondary {
+    color: var(--txt-secondary);
+
+}

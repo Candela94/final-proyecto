@@ -1,3 +1,9 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
 
 /* ------------------------- */
 /*    Fuentes                */
@@ -16,6 +22,28 @@
 
 
 
+
+@font-face {
+    font-family: "Aniko-semibold";
+    src: url(../fonts/Aniko-Semibold.otf);
+}
+
+
+@font-face {
+    font-family: "Aniko-bold";
+    src: url(../fonts/Aniko-Bold.otf);
+}
+
+
+
+
+
+
+
+
+
+
+
 *{
     box-sizing: border-box;
     padding: 0px;
@@ -31,27 +59,35 @@
 .Header {
     display: flex;
     justify-content: space-between;
-
     padding: 32px;
     position: sticky;
     top: 0;
     z-index: 1;
 
+    font-family: "Aniko-semibold";
+    background-color: var(--secondary);
+   
+
     /* box-shadow: 0.3px 0.5px 10px black; */
 }
 
+.Header-nav {
+    color: var(--primary);
+}
 
 .Header-nav ul{
 
     display: flex;
     list-style: none;
     gap: 64px;
+    
 }
 
 
 .Header-icons ul {
     display: flex;
     gap: 32px;
+    color: var(--primary);
     
 }
 
@@ -133,12 +169,13 @@
     background-color: #F6F6F0;
 }
 
-#dark-mode {
-    background-color: #2E2E2E;
-}
-
 #purple-mode {
     background-color: #352D31;
+}
+
+#pink-mode {
+    background-color: #FDA6DC;
+    
 }
 
 #green-mode {

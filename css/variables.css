@@ -6,11 +6,12 @@
 :root {
 
 
-    --bg-primary: #F6F6F0;
-    --bg-secondary: #2E2E2E;
-    --title: #2E2E2E;
-    --txt-primary: #2E2E2E;
+    --primary: #F6F6F0;
+    --secondary: #2E2E2E;
+    --terciary: #2E2E2E;
+    
     --txt-secondary: #545252;
+  
 
 }
 
@@ -31,17 +32,80 @@
 }
 
 
-.-u-Ttitle {
+.u-title {
     color: var(--title);
 
 }
 
-.-u-txtPrimary {
+.u-txtPrimary {
     color: var(--txt-primary);
 
 }
 
-.-u-txtSecondary {
+.u-txtSecondary {
     color: var(--txt-secondary);
 
 }
+
+
+
+
+
+/* ------------------------- */
+/*          Modos            */
+/* ------------------------- */
+
+
+/*     Light mode      */
+/* ------------------------- */
+
+.u-lightMode{
+
+    --primary: #F6F6F0;
+    --secondary: #2E2E2E;
+    --terciary: #2E2E2E;
+   
+
+
+}
+
+
+
+/*     Purple/Dark mode      */
+/* ------------------------- */
+
+
+.u-darkMode{
+
+--primary: #352D31;
+--secondary: #FEBAD0;
+--terciary: #F1EBDD;
+
+
+}
+
+
+
+/*         Pink mode         */
+/* ------------------------- */
+
+
+.u-pinkMode{
+    --primary: #FDA6DC;
+    --secondary: #FF4821;
+    --terciary: #F7F7F0;
+}
+
+
+
+/*       Green mode           */
+/* ------------------------- */
+
+.u-greenMode{
+
+    --primary: #97A75B;
+    --secondary: #FDA6DC;
+    --terciary: #FCD74D;
+}
+
+.

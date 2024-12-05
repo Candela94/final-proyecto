@@ -38,7 +38,6 @@ a {
 
 
 
-
 *{
     box-sizing: border-box;
     padding: 0px;
@@ -46,92 +45,58 @@ a {
 }
 
 
-.Body {
 
+
+
+.Body{
+
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
     font-family: poppins;
-   
+  
+
+
 }
-
-
 
 /* ----------------------------------*/
-/*            Header  dekstop        */
+/*              Main                 */
 /* ----------------------------------*/
 
 
-.Header {
-    display: flex;
-    justify-content: space-between;
-    padding: 32px;
-    position: sticky;
-    top: 0;
-    z-index: 1;
-
-    font-family: "Aniko-semibold";
-    background-color: var(--secondary);
-   
-
-    /* box-shadow: 0.3px 0.5px 10px black; */
-}
-
-.Header-nav {
-    color: var(--primary);
-}
-
-.Header-nav ul{
-
-    display: flex;
-    list-style: none;
-    gap: 64px;
+.Main{
     
-}
-
-
-.Header-icons ul {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     gap: 32px;
-    color: var(--primary);
+    width: 100%;
+    height: 100vh;
     
-}
-
-.Header-icons li{
-    list-style: none;
-    
-}
-
-
-.Header-icons i{
-    font-size: 18px;
-}
-
-
-#linkedin{
-
-    transition: color 0.4s ease, transform 0.4s ease;
 
 }
 
-#linkedin:hover {
-    color: #0966C2;
-    transform: scale(1.1);
+.Main-intro{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
-#behance{
-    transition: color 0.4s ease, transform 0.4s ease;
-}
+.Main-h1{
 
-#behance:hover {
-
-    color: #002ACC;
-    transform: scale(1.1);
-
+    font-family: Aniko-semibold;
+    font-size: 42px;
 }
 
 
+.Main-themes{
 
+    width: 100%;
+    display: flex;
+    gap: 1em;
+    justify-content: center;
 
-
-
+}
 
 
 /* ----------------------------------*/
@@ -151,7 +116,7 @@ a {
     height: 16px;
     cursor: pointer;
     border: none;
-    border-radius: 10px;
+    border-radius: 4px;
     transition: rotate 0.3s ease, transform 0.3s ease ;
 
 }

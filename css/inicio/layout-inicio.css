@@ -11,6 +11,7 @@
 
 
 .Main{
+
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -57,6 +58,11 @@
     transform: scale(1.2);
     
 }
+
+
+
+
+
 
 /* ----------------------------------*/
 /*              Footer               */
